@@ -10,4 +10,8 @@ $(document).ready(function () {
   $('#donasi').on('click', function () {
     Swal.fire('Alhamdulilah!', 'Semoga Berkah dan juga mendapatkan banyak pahala. aammiinn, terima kasih :) sudah membantu pengembangan kami', 'success');
   });
+
+  $('#tau').on('click', function () {
+    Swal.fire('Hebat!!', 'Pengetahuan kamu bertambah, kamu keren! Semoga berkah informasinya!', 'success');
+  });
 });
