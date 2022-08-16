@@ -1,0 +1,47 @@
+#jumbotron {
+  margin-top: 50px;
+  background-image: url(img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#lomba {
+  padding-top: 90px;
+  background-color: #ff0000;
+}
+#gallery {
+  padding-top: 90px;
+  height: 720px;
+}
+#tentang {
+  padding-top: 90px;
+  background-color: red;
+}
+@media (min-width: 992px) {
+  .card {
+    width: 18rem;
+  }
+  .tampil {
+    color: red;
+    background-color: white;
+    padding: 20px;
+  }
+  #jumbotron {
+    margin-top: 60px;
+    background-image: url(img/123.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+  }
+
+  #lomba {
+    padding-top: 90px;
+    background-color: red;
+  }
+  #gallery {
+    padding-top: 90px;
+  }
+  #tentang {
+    padding-top: 90px;
+    background-color: red;
+  }
+}
